@@ -1,3 +1,4 @@
+require "primetable/generator"
 require "primetable/version"
 
 module Primetable
