@@ -7,7 +7,21 @@ as a multiplication table
 
 ## Install
 
-gem install matthewrudy-primetable
+Install as a gem with binary
+
+```
+$ gem install matthewrudy-primetable
+$ primetable --help
+```
+
+Or check out the source
+
+```
+$ git clone https://github.com/matthewrudy/primetable.git
+$ cd primetable
+$ bundle install
+$ bundle exec ruby -Ilib exe/primetable --help
+```
 
 ## Usage
 
