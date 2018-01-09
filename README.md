@@ -1,4 +1,5 @@
 # Primetable
+[![Build Status](https://travis-ci.org/matthewrudy/primetable.svg?branch=master)](https://travis-ci.org/matthewrudy/primetable)
 
 Primetable is a small command line utility
 which prints the first N prime numbers
