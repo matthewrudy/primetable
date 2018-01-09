@@ -1,5 +1,24 @@
 #!/usr/bin/env ruby
 
+require "optparse"
 require "primetable"
 
-puts Primetable.print(10)
+options = {
+  n: 10
+}
+
+# Allow --help to give usage
+OptionParser.new do |opts|
+  opts.banner = "Usage: primetable [N]"
+
+  opts.on(
+      "-n N",
+      "--number N",
+      OptionParser::DecimalInteger,
+      "First N primes (default 10)"
+    ) do |n|
+    options[:n] = n
+  end
+end.parse!
+
+puts Primetable.print(options[:n])
