@@ -20,7 +20,7 @@ Or check out the source
 $ git clone https://github.com/matthewrudy/primetable.git
 $ cd primetable
 $ bundle install
-$ bundle exec ruby -Ilib exe/primetable --help
+$ bundle exec ruby -Ilib bin/primetable --help
 ```
 
 ## Usage
