@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "primetable/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "primetable"
+  spec.name          = "matthewrudy-primetable"
   spec.version       = Primetable::VERSION
   spec.authors       = ["Matthew Rudy Jacobs"]
   spec.email         = ["matthewrudyjacobs@gmail.com"]
